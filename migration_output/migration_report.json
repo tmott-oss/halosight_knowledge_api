@@ -1,0 +1,625 @@
+{
+  "generated_at": "2026-05-18T01:14:15.636079Z",
+  "vault": "/Users/troymott/Desktop/Halosight Knowledge Wiki",
+  "total_files_found": 123,
+  "documents_exported": 119,
+  "skipped": 4,
+  "files_with_warnings": 0,
+  "entries": [
+    {
+      "file": "00-Knowledge maps/AI System Map.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "00-Knowledge maps/Master Knowledge Map.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "00-Knowledge maps/Messaging & Positioning Map.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "00-Knowledge maps/Product Architecture Map.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "00-Knowledge maps/Revenue Intelligence Map.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "00-Knowledge maps/Sales System Map.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "00-Knowledge maps/Vault Governance Rules.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "01-Company Context/Approved Language.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "01-Company Context/Context Intelligence.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "01-Company Context/Controlled Vocabulary.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "01-Company Context/Core Business Problem.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "01-Company Context/Halosight Executive Overview.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "01-Company Context/Language to Avoid.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "01-Company Context/Strategic Positioning.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "01-Company Context/What is Halosight.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "02-ICP & Personas/CIO.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "02-ICP & Personas/CRO.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "02-ICP & Personas/CTO.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "02-ICP & Personas/Ideal Customer Profile.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "02-ICP & Personas/VP of Sales Operations.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "02-ICP & Personas/VP of Sales.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Deal Risk Indicators.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Discovery Framework.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Economic Buyer Signals.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Next Step Standards.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Objection Handling.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Pipeline Inspection.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Qualification Standards.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Sales Methodology.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Sales Stages.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Stakeholder Mapping.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Technical Buyer Signals.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Why Buy Anything?.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Why Buy Halosight?.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "03-Sales Methodology/Why Buy Now?.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/AI Extraction Architecture.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/CRM Enhancement Strategy.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/Implementation Philosophy.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/Mobile Workflow.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/Operational Visibility Layer.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/Platform Overview.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/Salesforce Integration Strategy.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/Scalability & Adoption.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/Structured Intelligence Engine.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "04-Product & Platform/Workflow Integration Philosophy.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Administrative Burden Patterns.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/CRM Discipline Failure Patterns.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Coaching & Inspection Limitations.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Customer Intelligence Fragmentation.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Execution Consistency Problems.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Field Interview Pattern Analysis.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Field Workflow Observations.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Management Visibility Gaps.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Operational Friction Patterns.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Revenue Execution Intelligence Overview.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "05-Revenue Execution Intelligence/Revenue Leakage Patterns.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/AI Agent System.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/AI Enforcement System.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/AI Retrieval Standards.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/AI Workflow Philosophy.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/Agent Design Principles.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/Agent Guardrails.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/Call Summary Agent.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/Meeting Prep Agent.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/Opportunity Inspection Agent.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/Personal Executive Assistant.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/Pipeline Review Agent.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "06-AI Agents/Structured Data Capture.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "07-Implementation/30-60-90-Day Operational Impact Framework.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "07-Implementation/Executive Sponsorship.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "07-Implementation/Implementation Overview.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "07-Implementation/Implementation Risk Factors.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "07-Implementation/Management Enablement.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "07-Implementation/Operational Adoption Strategy.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "07-Implementation/Workflow Rollout Strategy.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/Category Definition.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/Differentiation Strategy.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/Executive Narrative.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/Executive Problem Language.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/LinkedIn Thought Leadership.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/Messaging Hierarchy.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/Objection Reframing.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/Operational Narrative Framework.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/Positioning Framework.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/Website Messaging.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "08-Marketing & Messaging/What We Are Not.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "09-Competitive Intelligence/\"Do Nothing\" Competitive Profile.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "09-Competitive Intelligence/Alysio.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "09-Competitive Intelligence/Chorus Competitive Profile.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "09-Competitive Intelligence/Competitive Intelligence Overview.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "09-Competitive Intelligence/Gong Competitive Profile.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "09-Competitive Intelligence/Seismic Competitive Profile.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "09-Competitive Intelligence/Showell Competitive Profile.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "09-Competitive Intelligence/Showpad Competitive Profile.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Call Summary Prompt Framework.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Deal Inspection Prompt.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Discovery Call Planner Prompt.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Executive Briefing Prompt Framework.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Follow-Up Email Prompt.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Meeting Prep Prompt Framework.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/New Rep Orientation Prompt.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Objection Response Prompt.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Opportunity Inspection Prompt Framework.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Pipeline Review Prompt Framework.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Post-Call Debrief Prompt.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Pre-Visit Prep Prompt.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "10-Prompt Library/Prompt Library - Master Index.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "11-Case Studies & Accounts/Advance Auto Parts — Source Evidence.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "11-Case Studies & Accounts/FleetPride Deal Intelligence.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "11-Case Studies & Accounts/FleetPride — Source Evidence.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "11-Case Studies & Accounts/O'Reilly Auto Parts — Source Evidence.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "11-Case Studies & Accounts/Reladyne — Source Evidence.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "12-AI Context Packs/Halosight Core Context Pack.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "90-Canonical Knowledge/Canonical Company Definition.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "90-Canonical Knowledge/Canonical Operational Problems.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "90-Canonical Knowledge/Canonical Positioning.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "95-Source Evidence/Customer Calls.md",
+      "status": "skipped",
+      "reason": "empty content"
+    },
+    {
+      "file": "95-Source Evidence/FleetPride Source Evidence Index.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "95-Source Evidence/Meeting Notes.md",
+      "status": "skipped",
+      "reason": "empty content"
+    },
+    {
+      "file": "95-Source Evidence/ROI Framework - Source Evidence.md",
+      "status": "ok",
+      "warnings": []
+    },
+    {
+      "file": "95-Source Evidence/Raw Quotes.md",
+      "status": "skipped",
+      "reason": "empty content"
+    },
+    {
+      "file": "95-Source Evidence/Transcripts.md",
+      "status": "skipped",
+      "reason": "empty content"
+    },
+    {
+      "file": "99-Raw Source Material/Raw Quotes - Customer Accounts.md",
+      "status": "ok",
+      "warnings": []
+    }
+  ]
+}
