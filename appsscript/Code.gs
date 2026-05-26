@@ -4,7 +4,11 @@
 // =============================================================================
 
 var API_URL = "https://halosight-knowledge-api-691841119073.us-central1.run.app";
-var API_KEY = "hk_FGYgWe6C2dRK441qTqmiWmi_kwjKQujjNP--qIFLyfU";
+
+// API key is stored in Script Properties — never hardcode it here.
+// To set it: Apps Script editor → Project Settings → Script Properties
+// Add property: HALOSIGHT_API_KEY = your-key
+var API_KEY = PropertiesService.getScriptProperties().getProperty("HALOSIGHT_API_KEY") || "";
 
 // =============================================================================
 // Entry points
