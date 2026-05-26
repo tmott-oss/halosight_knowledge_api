@@ -41,11 +41,18 @@ def search_documents(db: Client, company_id: str, embedding: list[float], top_k:
     ]
 
 
-def search_chunks(db: Client, company_id: str, embedding: list[float], top_k: int) -> list[SearchResult]:
+def search_chunks(
+    db: Client,
+    company_id: str,
+    embedding: list[float],
+    top_k: int,
+    query: str,
+) -> list[SearchResult]:
     result = db.rpc("search_chunks", {
         "query_embedding": embedding,
         "match_company_id": company_id,
-        "match_count": top_k,
+        "match_count": top_k, 
+        "query_text": query,
     }).execute()
 
     return [
