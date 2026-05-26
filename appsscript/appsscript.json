@@ -1,12 +1,13 @@
 {
   "timeZone": "America/Chicago",
   "dependencies": {},
+  "urlFetchWhitelist": [
+    "https://halosight-knowledge-api-691841119073.us-central1.run.app/"
+  ],
   "exceptionLogging": "STACKDRIVER",
   "runtimeVersion": "V8",
   "oauthScopes": [
     "https://www.googleapis.com/auth/gmail.addons.execute",
-    "https://www.googleapis.com/auth/documents.addons.execute",
-    "https://www.googleapis.com/auth/spreadsheets.addons.execute",
     "https://www.googleapis.com/auth/script.external_request"
   ],
   "addOns": {
@@ -24,16 +25,6 @@
           "onTriggerFunction": "onGmailMessage"
         }
       ]
-    },
-    "docs": {
-      "homepageTrigger": {
-        "runFunction": "onHomepage"
-      }
-    },
-    "sheets": {
-      "homepageTrigger": {
-        "runFunction": "onHomepage"
-      }
     }
   }
 }
