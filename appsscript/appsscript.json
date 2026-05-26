@@ -1,0 +1,39 @@
+{
+  "timeZone": "America/Chicago",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/documents.addons.execute",
+    "https://www.googleapis.com/auth/spreadsheets.addons.execute",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Halosight Knowledge",
+      "logoUrl": "https://www.gstatic.com/images/branding/product/1x/googleg_48dp.png",
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    },
+    "gmail": {
+      "contextualTriggers": [
+        {
+          "unconditional": {},
+          "onTriggerFunction": "onGmailMessage"
+        }
+      ]
+    },
+    "docs": {
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    },
+    "sheets": {
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    }
+  }
+}
