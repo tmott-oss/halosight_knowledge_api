@@ -41,18 +41,48 @@ def search_documents(db: Client, company_id: str, embedding: list[float], top_k:
     ]
 
 
+def synthesize_answer(question: str, results: list[SearchResult]) -> str:
+    """Send retrieved content + question to OpenAI and return a synthesized answer."""
+    if not results:
+        return "I couldn't find relevant information in the Halosight knowledge base to answer that question."
+
+    context = "\n\n---\n\n".join(
+        f"[{r.title}]\n{r.content}" for r in results
+    )
+
+    system_prompt = (
+        "You are the Halosight Knowledge Assistant. "
+        "Answer the user's question using only the knowledge base content provided below. "
+        "Be concise, direct, and specific. "
+        "Do not make up information not present in the content. "
+        "If the content doesn't fully answer the question, say so honestly.\n\n"
+        f"Knowledge base content:\n{context}"
+    )
+
+    response = get_openai().chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": question},
+        ],
+        temperature=0.3,
+        max_tokens=1000,
+    )
+
+    return response.choices[0].message.content
+
+
 def search_chunks(
     db: Client,
     company_id: str,
     embedding: list[float],
     top_k: int,
-    query: str,
+    query: str = "",
 ) -> list[SearchResult]:
     result = db.rpc("search_chunks", {
         "query_embedding": embedding,
         "match_company_id": company_id,
-        "match_count": top_k, 
-        "query_text": query,
+        "match_count": top_k,
     }).execute()
 
     return [

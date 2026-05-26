@@ -8,10 +8,12 @@ from .models import (
     HealthResponse,
     SearchRequest,
     SearchResponse,
+    AskRequest,
+    AskResponse,
     DocumentSummary,
     DocumentDetail,
 )
-from .search import embed_query, search_documents, search_chunks
+from .search import embed_query, search_documents, search_chunks, synthesize_answer
 
 app = FastAPI(
     title="Halosight Knowledge API",
@@ -62,6 +64,30 @@ def search(request: SearchRequest, auth: dict = Depends(require_api_key)):
         results = search_documents(db, company_id, embedding, request.top_k)
 
     return SearchResponse(query=request.query, results=results)
+
+
+# ---------------------------------------------------------------------------
+# Ask (retrieval + synthesis)
+# ---------------------------------------------------------------------------
+
+@app.post("/ask", response_model=AskResponse, tags=["Search"])
+def ask(request: AskRequest, auth: dict = Depends(require_api_key)):
+    """
+    Ask a question and get a synthesized answer from the knowledge base.
+
+    Retrieves the most relevant documents, then uses GPT-4o-mini to
+    synthesize a direct, concise answer grounded in that content.
+    Use this instead of /search when you want a readable answer
+    rather than raw document content.
+    """
+    company_id = auth["company_id"]
+    db = get_db()
+
+    embedding = embed_query(request.question)
+    results = search_documents(db, company_id, embedding, request.top_k)
+    answer = synthesize_answer(request.question, results)
+
+    return AskResponse(question=request.question, answer=answer)
 
 
 # ---------------------------------------------------------------------------

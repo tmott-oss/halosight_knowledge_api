@@ -41,14 +41,14 @@ function onSearch(e) {
 
 function searchKnowledge(query) {
   try {
-    var response = UrlFetchApp.fetch(API_URL + "/search", {
+    var response = UrlFetchApp.fetch(API_URL + "/ask", {
       method: "post",
       contentType: "application/json",
       headers: {
         "Authorization": "Bearer " + API_KEY
       },
       payload: JSON.stringify({
-        query: query,
+        question: query,
         top_k: 5
       }),
       muteHttpExceptions: true
@@ -60,18 +60,7 @@ function searchKnowledge(query) {
     }
 
     var data = JSON.parse(response.getContentText());
-    var results = data.results || [];
-
-    if (results.length === 0) {
-      return "No relevant content found for that question.";
-    }
-
-    // Combine the top results into a single readable answer
-    var answer = results.map(function(r) {
-      return r.content;
-    }).join("\n\n---\n\n");
-
-    return answer;
+    return data.answer || "No answer returned.";
 
   } catch (err) {
     return "Error connecting to Halosight Knowledge API: " + err.message;

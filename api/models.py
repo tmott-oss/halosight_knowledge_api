@@ -39,3 +39,13 @@ class SearchResponse(BaseModel):
 class HealthResponse(BaseModel):
     status: str
     documents: int
+
+
+class AskRequest(BaseModel):
+    question: str = Field(..., description="Plain-text question to answer from the knowledge base")
+    top_k: int = Field(5, ge=1, le=20, description="Number of source documents to retrieve")
+
+
+class AskResponse(BaseModel):
+    question: str
+    answer: str
