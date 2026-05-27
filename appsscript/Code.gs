@@ -60,7 +60,16 @@ function searchKnowledge(query) {
     }
 
     var data = JSON.parse(response.getContentText());
+<<<<<<< HEAD
     return data.answer || "No answer returned.";
+=======
+
+    if (!data.answer) {
+      return "No relevant content found for that question.";
+    }
+
+    return data.answer;
+>>>>>>> 7ba2e84 (Add /ask endpoint with GPT-4o-mini synthesis)
 
   } catch (err) {
     return "Error connecting to Halosight Knowledge API: " + err.message;

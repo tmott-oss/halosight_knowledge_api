@@ -85,9 +85,21 @@ def ask(request: AskRequest, auth: dict = Depends(require_api_key)):
 
     embedding = embed_query(request.question)
     results = search_documents(db, company_id, embedding, request.top_k)
-    answer = synthesize_answer(request.question, results)
 
-    return AskResponse(question=request.question, answer=answer)
+    if not results:
+        return AskResponse(
+            question=request.question,
+            answer="I could not find relevant content in the knowledge base to answer that question.",
+            sources=[],
+        )
+
+    answer, sources = synthesize_answer(request.question, results)
+
+    return AskResponse(
+        question=request.question,
+        answer=answer,
+        sources=sources,
+    )
 
 
 # ---------------------------------------------------------------------------

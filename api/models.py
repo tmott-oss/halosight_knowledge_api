@@ -46,6 +46,13 @@ class AskRequest(BaseModel):
     top_k: int = Field(5, ge=1, le=20, description="Number of source documents to retrieve")
 
 
+class AskSource(BaseModel):
+    title: str
+    folder: str
+    similarity: float
+
+
 class AskResponse(BaseModel):
     question: str
     answer: str
+    sources: List[AskSource]
